@@ -1,0 +1,30 @@
+information:
+  name : "plugins-common"
+  description : "Common ressources between several plugins"
+  version : "0.1"
+  authors : ['antoine.gallavardin@free.fr']
+  status : "dev"
+  tags: ['plugin','common']
+  license : "GPLv3"
+  origin : "source"
+
+support:
+  provider : "community"
+  homeUrl : "https://github.com/gallak/fusiondirectory-plugins-common"
+  ticketUrl : "https://github.com/gallak/fusiondirectory-plugins-common/issues"
+  discussionUrl : "https://github.com/gallak/fusiondirectory-plugins-common/wiki"
+  downloadUrl: "https://github.com/gallak/fusiondirectory-plugins-common.tgz"
+  schemaUrl : "https://schemas.fusiondirectory.info/"
+
+requirement:
+  fdVersion : 1.4
+  phpVersion : 7.2.0
+
+content :
+  phpClassList : ['RestClientException','RestClient']
+  fileList :
+    - './include/class_restclient.inc'
+
+
+
+
